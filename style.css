@@ -3,6 +3,9 @@
     background-color: #1F2937;
     
 }
+body{
+    list-style: none;
+}
 h2{
     
     font-size: 48px;
@@ -49,4 +52,14 @@ header{
     display: flex;
     justify-content: flex-end;
     align-self: center;
+}
+#info{
+    font-size: 36px;
+    font-style: bold;
+    color: #1F2937;
+    text-align: center;
+}
+.info-box{
+    display: flex;
+    justify-content: center;
 }
