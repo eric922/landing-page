@@ -59,7 +59,24 @@ header{
     color: #1F2937;
     text-align: center;
 }
+
 .info-box{
     display: flex;
     justify-content: center;
+    margin: 0;
+}
+#quote-portion{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
+    
+}
+#quote-text{
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
 }
